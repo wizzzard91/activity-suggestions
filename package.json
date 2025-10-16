@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "GraphQL + React service to suggest activities for a city based on the weather",
   "private": true,
+  "scripts": {
+    "start:backend": "npm run start -w backend"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/wizzzard91/activity-suggestions.git"
