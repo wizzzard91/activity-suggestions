@@ -24,6 +24,8 @@ I use Anthropic's Claude Sonnet 4.5 for suggestions and discussions, as well as 
 
 I decided to go with Apollo, since it was suggested by LLLM and it is pretty popular in [NPM registry](https://www.npmjs.com/package/@apollo/server).
 
+I used [Get Started with Apollo Server](https://www.apollographql.com/docs/apollo-server/getting-started) guide for initial project setup.
+
 ### Frontend
 
-I decided to use React with Vite, since it was suggested by LLLM and it is overwhelmingly popular, based on [NPM registry](https://www.npmjs.com/package/vite) data - ~30 million weekly downloads. Also it's the first option in [React App from Scratch](https://react.dev/learn/build-a-react-app-from-scratch) guide.
+I decided to use React with Vite, since it was suggested by LLLM and it is overwhelmingly popular, based on [NPM registry](https://www.npmjs.com/package/vite) data - ~30 million weekly downloads. Also it's the first option in [React App from Scratch](https://react.dev/learn/build-a-react-app-from-scratch) guide - which I am going to use for initial project set up.

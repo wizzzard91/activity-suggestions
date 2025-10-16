@@ -4,7 +4,8 @@
   "description": "GraphQL + React service to suggest activities for a city based on the weather",
   "private": true,
   "scripts": {
-    "start:backend": "npm run start -w backend"
+    "start:backend": "npm run start -w backend",
+    "start:frontend": "npm run dev -w frontend"
   },
   "repository": {
     "type": "git",
