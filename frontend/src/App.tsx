@@ -7,8 +7,8 @@ import { ContentCardManager } from './components/ContentCardManager';
 import { ContentCard } from './components/ContentCard';
 
 function App() {
-  const [city, setCity] = useState('San Francisco');
-  const [searchCity, setSearchCity] = useState('San Francisco');
+  const [city, setCity] = useState('Almaty');
+  const [searchCity, setSearchCity] = useState('Almaty');
 
   const { loading, error, data } = useQuery<SuggestionsData>(getSuggestionsQuery, {
     variables: { city: searchCity },
