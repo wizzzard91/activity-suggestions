@@ -20,6 +20,10 @@ I need to use [Open-Meteo](https://open-meteo.com/) for all the required data.
 
 I use Anthropic's Claude Sonnet 4.5 for suggestions and discussions, as well as Github Copilot's agent.
 
+GitHub Copilot provided inline type suggestions and autocompletion for TypeScript interfaces, though I had to turn it off while working on `evaluate` method - because code suggestions were messing with my idea of how algorithm can work.
+
+I used AI as a consultant and auto-suggestions, but made all final architectural decisions myself. I also validated all AI-generated code. I tried to avoid unnecessary explicit code and configs.
+
 ### Backend
 
 I decided to go with Apollo, since it was suggested by LLLM and it is pretty popular in [NPM registry](https://www.npmjs.com/package/@apollo/server).
@@ -35,6 +39,8 @@ I've implemented a clean 3-layer architecture:
 Tradeoffs I had to embrace: I would also prefer to use GraphQL Code Generator for type safety between GraphQL schema and TypeScript code, but I need to focus on a better usage of time. Same goes for dependency inversions - it would take time to set up as well.
 
 Another tradeoff I had to deal is to make backend not configurable. I've focused instead on introducing better strategies to resolve ranking, to meet the deadline.
+
+One more trade-off - the algorithms in Ranking Strategies could be faster, but I've embraced the most simple solution.
 
 ### Frontend
 
