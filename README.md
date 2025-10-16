@@ -34,6 +34,7 @@ I've implemented a clean 3-layer architecture:
 
 Tradeoffs I had to embrace: I would also prefer to use GraphQL Code Generator for type safety between GraphQL schema and TypeScript code, but I need to focus on a better usage of time. Same goes for dependency inversions - it would take time to set up as well.
 
+Another tradeoff I had to deal is to make backend not configurable. I've focused instead on introducing better strategies to resolve ranking, to meet the deadline.
 
 ### Frontend
 
@@ -44,6 +45,10 @@ I am using [Apollo Client](https://www.apollographql.com/docs/react) on frontend
 I've implemented a simple ContentCard and ContentCardManager components, and made the later a generic, because on the earlier part of development I was focused to ensure frontend and backend communicate properly. I also used styles.css - though I understand that it would be better to use some library for that, like Material UI - but since it's MVP, I decided not to focus on it. 
 
 Also, I've provided a simple config file support - `config.ts`. It will throw an error if the config is not provided - that's a simple validation, and given more time, I would suggest to add proper config validation.
+
+### Infrastructure Tradeoff
+
+I omitted Docker to focus on architecture and business logic within the time constraint, accepting that local setup requires manual dependency management.
 
 ### API Contract
 
