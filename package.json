@@ -1,0 +1,21 @@
+{
+  "name": "activity-suggestions",
+  "version": "1.0.0",
+  "description": "GraphQL + React service to suggest activities for a city based on the weather",
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wizzzard91/activity-suggestions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wizzzard91/activity-suggestions/issues"
+  },
+  "homepage": "https://github.com/wizzzard91/activity-suggestions#readme",
+  "workspaces": [
+    "backend",
+    "frontend"
+  ]
+}
